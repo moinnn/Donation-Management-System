@@ -1,0 +1,207 @@
+@font-face {
+	font-family: "Bodyig";
+	src: url("http://localhost/trms/fonts/tcrc.ttf");
+	
+}
+@font-face {
+	font-family: "Monlam Uni OuChan2";
+	src: url("http://localhost/trms/fonts/Monlam.ttf");
+	
+}
+
+@font-face {
+	font-family: “Sambhota”;
+	src: url("http://localhost/trms/fonts/sambhota.ttf");
+	
+}
+
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 5px;
+    padding: 20px 0px 10px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+/******** ADD FOLLOWING ADDITIONAL STYLES *******/
+.main-wrapper {
+    margin-top: 50px;
+}
+.main-btn-left {
+    width:50%;
+    float: left;
+    text-align: center;
+}
+.form-control3 {
+  width: 45%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #e5e5e5;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	
+}
+.convert-btn {
+  display: block;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #e3e3e3;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    
+}
+.tibetan {
+ font: 17px "Monlam Uni OuChan2";   
+}
+.tibetan-large {
+ font: 26px/24px "Monlam Uni OuChan2";   
+}
+.tibetan-small {
+ font: 13px/20px "Monlam Uni OuChan2";   
+}
+.tibetan2 {
+ font: 18px/18px "Monlam Uni OuChan2"; 
+ color: #ccc;
+}
+.tibetan-line {
+ font: 17px/17px "Monlam Uni OuChan2";
+ border-bottom: solid 1px #000000;
+}
+
+.english {
+ color: #ccc;
+ font-size: 11px;
+}
+.english-small {
+ color: #ccc;
+ font-size: 11px;
+}
+.underline_text {
+      border-bottom: solid 1px #000000;
+      display: inline;
+      padding-bottom: 3px;
+      font-style:italic; 
+}
+.address_underline_text {
+      border-bottom: solid 1px #000000;
+      display: inline;
+      padding-bottom: 3px;
+      font-size: 11px;
+      font-style:italic; 
+}
+/*
+.tabel_header, .tabel_header:hover {
+	background-color: #E5E5E5;
+        border-bottom: 1px solid #000;
+}
+tr:hover {
+	background-color: #FFCC99;	
+}
+*/	
+.admin_tabel {
+  padding: 10px;
+  background-color: #EEE;
+  border: #E5E5E5 1px solid;
+}
+.form-admin {
+	margin-top: 20px;
+	padding: 10px;
+	border: #E5E5E5 1px solid;
+	box-shadow: 1px 1px 1px #CCC;
+	/*margin: 50px auto 0px;
+	width: 250px;
+	border-radius: 5px;
+	*/
+	
+}
+@media print {
+   #edit-delete {display:none}
+   #example_filter {display:none}
+   #example_length {display:none}
+   #selecctall {display:none}
+   #no-print { display: none}
+   
+}
